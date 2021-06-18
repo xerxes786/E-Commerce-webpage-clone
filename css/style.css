@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap');
+:root {
+    --main-bg-color: #2874f0;
+  }
+*{
+    padding: 0;
+    margin: 0;
+}
+footer{
+    height: 10vh;
+    background-color:var(--main-bg-color);
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Lato', sans-serif
+}
+nav ul{
+    height: 58px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+
+}
+
+nav ul li{
+    list-style: none;
+    padding: 0 23px;
+}
+nav ul li a{
+    text-decoration: none;
+    color: white;
+}
+nav ul li a:hover{
+    /* color: rgb(139, 44, 65); */
+    font-weight: bold;
+    
+}
+header{
+    height: 58px;
+    background-color: var(--main-bg-color);
+    color: white;
+    margin: 0;
+    padding: 0;
+    font-family: 'Lato', sans-serif
+
+}
+nav{
+    display: flex;
+}
+
+.card{
+    max-width: 91vw;
+    margin: 37px auto;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.cards{
+    display: flex; 
+    overflow: scroll;
+}
+
+.card-item{
+    display: inline-flex;
+    justify-content: center;
+    flex-direction: column;
+    margin: 0 15px;
+    
+}
+
+.card h2{
+    font-family: 'Lato', sans-serif;
+}
